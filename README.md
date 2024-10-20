@@ -18,10 +18,10 @@ Supercat is a simple CLI utility that allows you to show the contents of a file 
    cd supercat
 2. Install supercat:
    ```bash
-   sudo python setup.py install --prefix=/usr
+   sudo python setup.py install
 3. (optional) Add alias to your shell configuration file
    ```bash
-   alias cat="/usr/bin/supercat "
+   alias cat="/path/to/supercat "
 
 ## Usage
   ```bash

@@ -21,7 +21,7 @@ Supercat is a simple CLI utility that allows you to show the contents of a file 
    sudo python setup.py install
 3. (optional) Add alias to your shell configuration file
    ```bash
-   alias cat="/path/to/supercat "
+   alias cat="supercat "
 
 ## Usage
   ```bash

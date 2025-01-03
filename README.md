@@ -1,14 +1,10 @@
-# Supercat
+# Supercat😺
 
 A python program that improves coding in the terminal
 
 ## Description
 
 Supercat is a simple CLI utility that allows you to show the contents of a file using the rich module to add syntax highlighting to it 
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
 
 ## Installation
 
@@ -18,12 +14,17 @@ Supercat is a simple CLI utility that allows you to show the contents of a file 
    cd supercat
 2. Install supercat:
    ```bash
-   sudo python setup.py install
-3. (optional) Add alias to your shell configuration file
+   chmod +x install.sh
+   ./install.sh
+3. Uninstall supercat
    ```bash
-   alias cat="supercat "
+   chmod +x uninstall.sh
+   ./uninstall.sh
 
 ## Usage
   ```bash
   supercat example.py
+  ```
+##
+ ![example image](https://github.com/Jdigitalz/Supercat/blob/main/Supercat.png?raw=true)
  
